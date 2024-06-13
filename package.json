@@ -1,11 +1,11 @@
 {
   "name": "node-watch",
   "displayName": "Node Watch",
-  "description": "Node Watch Server for JavaScript development, providing live reload functionality.",
+  "description": "Node Watch Server for JavaScript development",
   "author": "Jaime HR",
   "publisher": "jaime-hr",
   "icon": "assets/logo.png",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.90.0"
   },
