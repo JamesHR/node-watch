@@ -5,7 +5,7 @@
   "author": "Jaime HR",
   "publisher": "jaime-hr",
   "icon": "assets/logo.png",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.90.0"
   },

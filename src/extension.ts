@@ -65,7 +65,7 @@ export function activate(context: vscode.ExtensionContext) {
     }
 
     nodeServerTerminal = vscode.window.createTerminal('Node Server');
-    nodeServerTerminal.sendText(`NODE_NO_WARNINGS=1 node --watch ${filePath}`);
+    nodeServerTerminal.sendText(`NODE_NO_WARNINGS=1 node --watch '${filePath}'`);
     vscode.window.showInformationMessage('Node.js server started successfully.');
     nodeServerTerminal.show();
   });
